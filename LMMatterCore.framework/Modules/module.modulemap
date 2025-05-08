@@ -1,0 +1,11 @@
+framework module LMMatterCore {
+  umbrella header "LMMatterCore.h"
+  export *
+
+  module * { export * }
+}
+
+module LMMatterCore.Swift {
+  header "LMMatterCore-Swift.h"
+  requires objc
+}
