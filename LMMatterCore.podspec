@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "LMMatterCore"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "LUMI Matter Core Framework"
 
   # This description is used to generate tags and improve search results.
@@ -40,18 +40,6 @@ Pod::Spec.new do |spec|
   #
 
   spec.license      = "MIT"
-  # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
-
-  # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Specify the authors of the library, with email addresses. Email addresses
-  #  of the authors are extracted from the SCM log. E.g. $ git log. CocoaPods also
-  #  accepts just a name if you'd rather not provide an email address.
-  #
-  #  Specify a social_media_url where others can refer to, for example a twitter
-  #  profile URL.
-  #
 
   spec.author             = { "xifan.zhao" => "xifan.zhao@aqara.com" }
   # Or just: spec.author    = "xiaolong.huang"
